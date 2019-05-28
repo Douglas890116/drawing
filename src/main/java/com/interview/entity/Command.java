@@ -49,7 +49,7 @@ public class Command {
     private void input() {
         InputStreamReader is = new InputStreamReader(System.in); //new构造InputStreamReader对象
         BufferedReader br = new BufferedReader(is);
-        System.out.print("Please input command:  ");
+        System.out.print("Please input command: ");
         try {
             String command = br.readLine();
             analysisCmd(command);
